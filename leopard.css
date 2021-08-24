@@ -1,0 +1,27 @@
+		        body{font-family: calibri; text-align: center; overflow-x: hidden;}
+		
+		
+		
+		
+		section{width: 114em; text-align: center; margin: auto;}
+		
+		article{
+		border-radius: 15px;
+		height: 35em;
+		width: 90em;
+		background-color: #00296b;
+		margin: 4em 0em 4.0625em 10em;
+		text-align: left;}
+		
+		img.product{float: left; width: 35em; height: 30em; margin: 2em;}
+		
+		h1.product{ font-size: 3em; color: white;}
+		
+		h1.product1{ font-size: 5em; color: white; display: inline;}
+		
+
+		
+		ul{margin-top: -2em}
+		p.head{	color: white;	font-size: 1.5em; padding: 1em; margin-top: -2em;}
+		
+		li{ color: white; font-size: 1.5em; margin-top: 0.2em;}

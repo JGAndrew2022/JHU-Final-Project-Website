@@ -1,0 +1,154 @@
+<!DOCTYPE HTML>
+	<html>
+        <head>
+        <title>Playful Paws Daycare - Newsletter</title>
+		<script>
+		var num = Math.floor((Math.random() * 999999) + 100000),//define variables
+		num = Math.ceil(num); //round the value of "num"
+		function myFunction(form) {
+    // get all the inputs within the submitted form
+    var inputs = form.getElementsByTagName('input');
+	var numOnly = /^\d+$/;
+	var theage = inputs[3].value;
+	var check = theage.search(numOnly);
+	if(document.cookie){
+	alert("You have already received a code");
+	return false;}
+		if(check >= 0 && theage < Number.MAX_VALUE){
+		}
+		else{alert("Please enter a valid age!");
+	return false;}
+	
+    for (var i = 0; i < inputs.length; i++) {
+        // only validate the inputs that have the required attribute
+        if(inputs[i].hasAttribute("required")){
+            if(inputs[i].value == ""){
+                // found an empty field that is required
+                window.alert("Please fill all required fields");
+                return false;
+            }
+    } 
+
+	else{alert("Congratulations! You have Successfully signed up for our mailing list! Your coupons code is " + num + " Copy this number and enter it after pressing OK.");
+	document.cookie="code="+num;
+	var firstCookie = unescape(document.cookie);
+	var myCookie = firstCookie.split("=");
+	var code = prompt("Enter Your Coupon Here:", "");
+	
+	if(code==myCookie[1]){
+	alert("Your all set! Thank you for choosing Playful Paws.");}
+	else{alert("Incorrect code entered!");
+	return false;}
+	
+    return true;}
+	}
+	}
+function reset(form){
+	document.getElementByTagName("form").reset(); }
+	
+
+</script>
+<script type="text/javascript" src="allpages.js">
+</script>
+
+
+
+
+
+		<link rel="stylesheet" type="text/css" href="mail.css"> 
+		
+        </head>
+		
+        <body onunload="window.confirm('Make sure to get your code before you leave!')">
+		<a href="index.html"><img class="logo" src="images/logo.jpg" alt="logo" /></a>
+		
+				<aside id="mySidenav" class="sidenav">
+		<h1 class="aside">Hot Items</h1>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="leash.html"	target="_blank"><img src="images/leash.jpg" class="img" alt="Leash"/></a>
+  <p class="aside">High-Quality Leash</p>
+  <a href="dogbowl.html" target="_blank"><img src="images/dog_bowl.jpg" class="img" alt="Dog Dowl"/></a>
+  <p class="aside">Stainless-Steel Dog Bowl</p>
+  <a href="grooming.html" target="_blank"><img src="images/grooming_tools.jpg" class="img" alt="Grooming Tools"/></a>
+   <p class="aside">Grooming Tools</p>
+  <a href="leopard.html" target="_blank"><img src="images/dog_sweater.jpg" class="img" alt="Dog Sweater"/></a>
+   <p class="aside">Leopard Print Sweater</p>
+</aside>
+<button type="button" class="aside" onclick="openNav()" id="opennav"></button>
+
+
+			<nav class="top">
+				<a class="nav" href="index.html">Home</a>
+				<a class="nav" href="about.html">Contact Us</a>
+				<a class="nav" href="daycare.html">Daycare</a>
+				<a class="nav" href="accessories.html">Accessories</a>
+				<a class="nav" href="locations.html">Calculate Price</a>
+				<a class="nav" href="FAQ.html">FAQ</a>
+				<a class="nav" href="howto.html">How To</a>
+			</nav>
+			<header>
+			<h2 class="head1">Sign-Up For Our Mailing List</h2>
+			<p class="head">Want to save even more? You can sign up today to receive a 20% off coupon on your next three daycare visits. In addition, you'll never miss another deal or promotion from us, so the saving never stops!</p>
+			</header>
+			
+			<section>
+			<article>
+			
+			<h2 class="paragraph">E-mail Form</h2>
+			<p class="head2">Please fill out the following form to revieve your special coupon, all special offers, promotions, and news. Once you have received your coupon, you can enter it at any of our stores throughout Colorado.</p>
+			<div id="container">
+			<form>
+
+			<label for="fname">First Name</label>
+			<input type="text" id="fname" name="firstname" placeholder="Your name..." required />
+			
+			<label for="fname">Last Name</label>
+			<input type="text" id="lname" name="lastname" placeholder="Your last name..." required />
+
+			<label for="emailmessage">Email</label>
+			<input type="text" id="emailmessage" name="email" placeholder="Your email adress..." required />
+			
+			<label for="emailmessage">Age</label>
+			<input type="text" id="ageone" name="age" placeholder="Your age..." id="area" required />
+
+			<label for="gender">Gender</label>
+			<select id="gender" name="gender">
+			<option value="male">Male</option>
+			<option value="female">Female</option>
+			
+			<br />
+			
+			<input type="submit" value="Submit" onclick="myFunction(form)">
+			<input type="reset" value="Reset" onclick="reset(form)">
+			</form>
+			</div>
+			</article>
+			
+			<img class="coupon" src="images/Tickets.jpg" alt="coupon"/>
+			</section>
+			
+			<div id="foot">
+			<footer>
+			<nav class="two">
+				<p><b>Customer Service</b></p>
+                <a href="faq.html">FAQ</a>
+                <a href="locations.html">Price Calculator</a>
+                <a href="about.html">Contact</a>
+			</nav>
+              
+            <nav class="four">
+				<p><b>Services</b></p>
+                <a href="daycare.html">Daycare</a>
+                <a href="accessories.html">Accessories</a>
+				<a href="mail.html">Sign-Up For Our Mailing List</a>
+			</nav>
+			<br /><br />
+			<small>Copyright &copy; 2017 Playful Paws Inc.</small>
+			</footer>
+			</div>
+			<p id="cook"></p>
+			<p id="java"></p>
+			<p id="last"></p>
+			<p id="widthheight"></p>
+        </body>
+    </html>

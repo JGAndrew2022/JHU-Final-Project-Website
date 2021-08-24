@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+	<html lang="en">
+        <head>
+        <title>Playful Paws Daycare - Home</title>
+		 <script type="text/javascript" src="allpages.js"></script>
+		<script src="locations1.js"></script>
+
+		<link rel="stylesheet" type="text/css" href="locations.css"> 
+		
+        </head>
+		
+        <body>
+		<a href="index.html"><img class="logo" src="images/logo.jpg" alt="logo" /></a>
+		
+
+		<aside id="mySidenav" class="sidenav">
+		<h1 class="aside">Hot Items</h1>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="leash.html"	target="_blank"><img src="images/leash.jpg" class="img" alt="Leash"/></a>
+  <p class="aside">High-Quality Leash</p>
+  <a href="dogbowl.html" target="_blank"><img src="images/dog_bowl.jpg" class="img" alt="Dog Dowl"/></a>
+  <p class="aside">Stainless-Steel Dog Bowl</p>
+  <a href="grooming.html" target="_blank"><img src="images/grooming_tools.jpg" class="img" alt="Grooming Tools"/></a>
+   <p class="aside">Grooming Tools</p>
+  <a href="leopard.html" target="_blank"><img src="images/dog_sweater.jpg" class="img" alt="Dog Sweater"/></a>
+   <p class="aside">Leopard Print Sweater</p>
+</aside>
+<button type="button" class="aside" onclick="openNav()"></button>
+
+
+			<nav class="top">	
+				<a class="nav" href="index.html">Home</a>
+				<a class="nav" href="about.html">Contact Us</a>
+				<a class="nav" href="daycare.html">Daycare</a>
+				<a class="nav" href="accessories.html">Accessories</a>
+				<a class="nav" href="locations.html">Calculate Price</a>
+				<a class="nav" href="FAQ.html">FAQ</a>
+				<a class="nav" href="howto.html">How To</a>
+			</nav>
+			<header>
+			<h1 class="head1">Schedule A Daycare Session For Your Dog</h1>
+			<p class="head">Here you can use our interactive calendar and price calculator to schedule daycare!</p>
+			</header>
+			<a href="mail.html"><div id="newsletter"></div></a>
+			
+<br />
+<section>
+<form onsubmit=" return givePrice()" name="myForm">
+	<label class="container">Daily Pay
+		<input type="radio" name="radio1" checked="checked" id="radio1">
+		<span class="radio"></span>
+	</label>
+	<label class="container">Hourly Pay
+		<input type="radio" name="radio1" id="radio2">
+		<span class="radio"></span>
+	</label>
+
+<br />
+<br />
+	<label class="textl" for="start" id="label1">Number of Days/Hours: </label>
+		<input type="text" id="start" name="start" placeholder="Number of days/hours..." class="text2"/>
+	<input type="submit" value="Calculate Price" class="sub"/>
+		</form>
+</section>
+			
+			<section id="section">
+			<input type="button" onmouseover="timeAndDate()" value="Hover Over to View Current Date and Time"  onmouseout="byeClock()" class="but"/>
+			<h1 class="sec" id="other"></h1>
+			<h1 class="sec1" id="area" ></h1>
+			</section>
+			
+			<div id="foot">
+			<footer>
+			<nav class="two">
+				<p><b>Customer Service</b></p>
+                <a href="faq.html">FAQ</a>
+                <a href="locations.html">Price Calculator</a>
+                <a href="about.html">Contact</a>
+			</nav>
+              
+            <nav class="four">
+				<p><b>Services</b></p>
+                <a href="daycare.html">Daycare</a>
+                <a href="accessories.html">Accessories</a>
+				<a href="mail.html">Sign-Up For Our Mailing List</a>
+			</nav>
+			<br /><br />
+			<small>Copyright &copy; 2017 Playful Paws Inc.</small>
+			</footer>
+			</div>
+			<p id="cook"></p>
+			<p id="java"></p>
+			<p id="last"></p>
+			<p id="widthheight"></p>
+        </body>
+    </html>

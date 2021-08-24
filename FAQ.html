@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+	<html lang="en">
+        <head>
+        <title>Playful Paws Daycare - FAQ</title>
+		
+		<script type="text/javascript">
+		var userAge = window.prompt("Enter your age to continue", "");
+		var pw = window.prompt("Enter the password to view this page. (Password is \"Dog\")", "");
+		function validate(age, lowval, hival, pass, word) {
+    if ((age < lowval) || (age > hival) || (pass!=word)) {
+    alert("Invalid age or password! Returning to the previous page.");
+	if(window.history.length == 0){
+	window.location = "index.html";}
+	else{window.history.back();}
+  }
+}
+var openPage = new validate(userAge, 10, 100, pw, "Dog");
+	</script>	
+<script type="text/javascript" src="allpages.js">
+</script>
+
+		<link rel="stylesheet" type="text/css" href="faq.css"> 
+		
+        </head>
+		
+        <body>
+		<a href="index.html"><img class="logo" src="images/logo.jpg" alt="logo" /></a>
+		
+
+		<aside id="mySidenav" class="sidenav">
+		<h1 class="aside">Hot Items</h1>
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="leash.html"	target="_blank"><img src="images/leash.jpg" class="img" alt="Leash"/></a>
+  <p class="aside">High-Quality Leash</p>
+  <a href="dogbowl.html" target="_blank"><img src="images/dog_bowl.jpg" class="img" alt="Dog Dowl"/></a>
+  <p class="aside">Stainless-Steel Dog Bowl</p>
+  <a href="grooming.html" target="_blank"><img src="images/grooming_tools.jpg" class="img" alt="Grooming Tools"/></a>
+   <p class="aside">Grooming Tools</p>
+  <a href="leopard.html" target="_blank"><img src="images/dog_sweater.jpg" class="img" alt="Dog Sweater"/></a>
+   <p class="aside">Leopard Print Sweater</p>
+</aside>
+<button type="button" class="aside" onclick="openNav()"></button>
+
+
+
+			<nav class="top">	
+				<a class="nav" href="index.html">Home</a>
+				<a class="nav" href="about.html">Contact Us</a>
+				<a class="nav" href="daycare.html">Daycare</a>
+				<a class="nav" href="accessories.html">Accessories</a>
+				<a class="nav" href="locations.html">Calculate Price</a>
+				<a class="nav" href="FAQ.html">FAQ</a>
+				<a class="nav" href="howto.html">How To</a>
+				
+			</nav>
+			<header>
+			<h1 class="head2">Frequently Asked Questions</h1>
+			<p class="head">We believe at Playful Paws, that customers should be able to ask about anything they need to know concerning our company. These are some of our most frequent questions. If you have a different question, you can go to our "Contact Us" page to ask us anything you like.</p>
+			</header>
+			
+			<img src="images/questions.jpg" alt="Questions?"/>
+		
+			
+			<section>
+			
+				<article><h2 class="head1">Q: Do You Do Overnight Daycare For Dogs?</h2><p class="welcome">A: We do, in fact, do overnight daycare. Nightime care is available seven days a week 365 days a year. Never worry about where to leave your dog when you go on vacation again!</p></article> 
+				<article><h2 class="head1">Q: What is the Maximum Number of Dogs That I Can Enroll In Daycare?</h2><p class="welcome">To make sure every dog has the perfect amount of space for optimal health, we limit our daytime sessions to 20 dogs, and our nightime to 30 dogs. </p></article>
+				<article><h2 class="head1">Q: Will I Be Charged If I Pick My Dog Up Late?</h2><p class="welcome">A: It is certainly appreciated when our customers pick up their dogs on time. However, we understand that things happen, so you will not be charged extra if you pick up your dog late.</p></article>
+				
+				<article><h2 class="head1">Q: Do You Do Have Anything For Other Pets?</h2><p class="welcome">A: Currently we cater to exclusively dogs. However, we are currently working to implement products and services for other pets, including cats.</p></article> 
+				<article><h2 class="head1">Q: What Days and Holidays Is The Daycare Closed For?</h2><p class="welcome">Playful Paws regognizes New Years, Memorial Day, 4th of July, Labor Day, Thanksgivings, and Christmas. We are also closed for daytime daycare on Sundays.</p></article>
+				<article><h2 class="head1">Q: How Late is the Store Open, and What Days is it Closed?</h2><p class="welcome">A: The store is open on weekdays from 8:00AM-4:00PM. The store is closed on Sunday, but open from 10:00AM-4:00PM on Saturday. The store observes the same holidays as the daycare.</p></article>
+				
+				<article><h2 class="head1">Q: What Qualifications Do Your Employees Have?</h2><p class="welcome">A: We are very proud of all of are employees. Everyone working at the daycare is certified in basic dog veterinary and are experts with caring for almost every breed. </p></article> 
+				<article><h2 class="head1">Q: Are Your Weekly Deals Only For the Online Store?</h2><p class="welcome">A: Nope! All of our weekly deals found in the online store can be found in our conveinant store locations all around the state of Colorado.  </p></article>
+				<article><h2 class="head1">Q: Do You Accept Credit Card As A Payment Option?</h2><p class="welcome">A: Our accepted credit cards are Visa, Mastercard, and Discover. In addition, we also accept cash, checks, PayPal, and many more!</p></article>
+			</section>
+			
+			
+			<div id="foot">
+			<footer>
+			<nav class="two">
+				<p><b>Customer Service</b></p>
+                <a href="faq.html">FAQ</a>
+                <a href="locations.html">Price Calculator</a>
+                <a href="howto.html">How To</a>
+			</nav>
+              
+            <nav class="four">
+				<p><b>Services</b></p>
+                <a href="daycare.html">Daycare</a>
+                <a href="accessories.html">Accessories</a>
+				<a href="mail.html">Sign-Up For Our Mailing List</a>
+			</nav>
+			<br /><br />
+			<small>Copyright &copy; 2017 Playful Paws Inc.</small>
+			</footer>
+			</div>
+			<p id="cook"></p>
+			<p id="java"></p>
+			<p id="last"></p>
+			<p id="widthheight"></p>
+        </body>
+    </html>

@@ -1,0 +1,132 @@
+	  
+        body{font-family: calibri; text-align: center; overflow-x: hidden;}
+		
+		header{
+		background-color: #00296b;
+		width: 111em;
+		margin: auto;
+		height: 12em;
+		border-radius: 15px;}
+		
+		nav{height: 6.25em; text-align: center;}
+		a.nav{background-color: #013993; 	color: white; 	text-decoration: none; 
+		font-size: 2.5em;
+		padding: 0.75em;}
+		
+		a.nav:hover{
+		color: black;
+		background-color: white;}
+		
+		
+		section{width: 114em; text-align: center; margin: auto;}
+		
+		article{
+		border-radius: 15px;
+		height: 35em;
+		width: 90em;
+		background-color: #00296b;
+		margin: 4em 0em 4.0625em 10em;
+		text-align: center;}
+		
+		h1.head1{ font-size: 3em; color: white;}
+		p.head{	color: white;	font-size: 1.5em; padding: 1em; margin-top: -2em;}
+		li{ color: white; font-size: 1.5em; margin-top: 0.2em;}
+		
+		#foot footer{
+		border-radius: 15px;
+		background-color: grey;
+		height: 12em;}
+		
+		#foot a{
+		color: #424242; 
+		text-decoration: none;
+        font-size: 18;
+		display: block;}
+		
+		#foot a:hover{color: black; font-weight: bold;}
+		
+		nav.two {margin-left: 8em;	display: inline-block;}
+		nav.four {margin: 0em 5em 0em 1em; display: inline-block;}
+		
+		img.logo{float: left; margin-left: 7em; width: 8em; height: 8em; margin-right: -8em;}
+		
+		img.product{float: left; width: 35em; height: 30em; margin: 2em;}
+		
+		h1.product{ font-size: 3em; color: white;}
+		
+		h1.product1{ font-size: 4em; color: white; display: inline; float: left; margin-left: 1em; margin-top: 0.2em;}
+		h1.product2{ font-size: 4em; color: white; display: inline; float: left; margin-left: 7em; position: absolute; margin-top: 0.2em;}
+		
+		button.button{border-radius: 15px; background-color: #2166d3; width: 3em; height: 1.5em; margin-bottom: 3em; border: 1px solid black; font-size: 3em; float: right; margin-right: 19em; margin-top: 0.4em;}
+		button.button:hover{color: white; border-color: white;}
+		
+		button.button1{border-radius: 15px; background-color: #2166d3; width: 3em; height: 1.5em; margin-bottom: 3em; border: 1px solid black; font-size: 3em; float: left; margin-left: 18em; margin-top: 0.4em; position: absolute;}
+		button.button1:hover{color: white; border-color: white;}
+		
+		ul{margin-top: -2em}
+		
+		img.top{margin-top: 5em;}
+		
+  /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #013993; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	text-align: center;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
+
+button.aside{background-color: #013993; color: white; border: none;  width: 6.8em; height: 6.5em; margin-left: -54.8em; margin-top:-0.5em; position: absolute; background-image: url("images/bar.jpg");}
+
+button.aside:hover{border: 1px grey inset;}
+
+img.img{width: 8em; height: 6em; margin-left: -1em;}
+
+p.aside{color: white; margin-top: -0.9em;}
+
+
+nav.top{margin-right: -11.5em;}
+ 
+h1.aside{margin-top: -0.3em; font-size: 3em; color: white;}

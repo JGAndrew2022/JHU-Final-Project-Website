@@ -1,0 +1,151 @@
+        body{font-family: calibri; text-align: center; overflow-x: hidden;}
+		
+		header{
+		background-color: #00296b; 
+		width: 111em;
+		margin: auto;
+		height: 13em;
+		border-radius: 15px;}
+		
+		nav{height: 6.25em; text-align: center;}
+		
+		a.nav{background-color: #013993; 	color: white; 	text-decoration: none; 
+		font-size: 2.5em;
+		padding: 0.75em;}
+		
+		a.nav:hover{
+		color: black;
+		background-color: white;}
+		
+		
+		section{width: 116em; text-align: center; margin: auto;}
+		
+		article{
+		border-radius: 15px;
+		height: 40em;
+		width: 35em;
+		background-color: #00296b; 
+		margin: 0em 2em 4.0625em 2em;
+		display: inline-block; }
+		
+		article.three{
+		height: 40em;
+		width: 30em;
+		position: relative;
+		top: 0em;}
+		
+		article:hover{box-shadow: 10px 10px 10px 10px #888888;}
+		
+		article.first{
+		height: 17em;
+		width: 112em;}
+		
+		article.first:hover{box-shadow: none;}
+		
+		h1.head1{ font-size: 3em; color: white;}
+		h1.head2{ font-size: 3em; color: white; margin-top: 0em;}
+		p.head{	color: white;	font-size: 1.5em; padding: 1em; margin-top: -2em; font-style: italics;}
+		p.head2 { font-size: 2em;   color: white; margin-top: -1.2em; font-weight: bold; font-style: italic;}
+		p.head1 { font-size: 1.5em;   color: white; margin-top: -2.8em; padding: 1em;}
+		p.head3 { font-size: 1.5em;   color: white; position: relative; margin-top: -2.2em; margin-bottom: 1.8em;}
+		
+		img.one{border-right: 5px solid black;}
+		
+		#foot footer{
+		border-radius: 15px;
+		background-color: grey;
+		height: 16em;}
+		
+		#foot a{
+		color: #424242; 
+		text-decoration: none;
+        font-size: 18;
+		display: block;}
+		
+		#foot a:hover{color: black; font-weight: bold;}
+		
+		nav.two {margin-left: 8em;	display: inline-block;}
+		nav.four {margin: 0em 5em 0em 1em; display: inline-block; background-color: 013993;}
+		
+		img.welcome{height: 18em; width: 100%; border-radius: 15px; margin: auto;}
+		img.welcome1{height: 18em; width: 25em;}
+		img.welcome2{height: 18em; width: 30em;}
+		
+		p.welcome{color: white; font-size: 20px; margin: auto; padding: 1em; }
+		
+		img.logo{position: absolute; margin-left: -54em; width: 8em; height: 8em;}
+		
+		a.ref{ padding: 0.25em; margin: auto;}
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		       /* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #013993; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+	text-align: center;
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+} 
+
+button.aside{background-color: #013993; color: white; border: none;  width: 6.8em; height: 6.5em; margin-left: -54.8em; margin-top:-0.5em; position: absolute; background-image: url("images/bar.jpg");}
+
+button.aside:hover{border: 1px grey inset;}
+
+img.img{width: 8em; height: 6em; margin-left: -1em;}
+
+p.aside{color: white; margin-top: -0.9em;}
+
+
+nav.top{margin-right: -11.5em;}
+ 
+h1.aside{margin-top: -0.3em; font-size: 3em; color: white;}
